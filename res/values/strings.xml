@@ -116,4 +116,18 @@
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Show data disabled icon</string>
     <string name="data_disabled_icon_summary">Display the exclamation mark at the signal bar when data is disabled</string>
+
+    <!-- QS brightness slider -->
+    <string name="category_name_qs_brightness_slider">Brightness slider</string>
+    <string name="qs_brightness_slider_title">Brightness slider</string>
+    <string name="qs_brightness_slider_summary">Adjust brightness slider from the Quick Settings</string>
+    <string name="qs_brightness_slider_never">Never show</string>
+    <string name="qs_brightness_slider_expanded">Show when expanded</string>
+    <string name="qs_brightness_slider_always">Show always</string>
+    <string name="qs_brightness_slider_position_title">Brightness slider position</string>
+    <string name="qs_brightness_slider_position_top">Top</string>
+    <string name="qs_brightness_slider_position_bottom">Bottom</string>
+    <!-- QS auto brightness icon -->
+    <string name="qs_auto_brightness_title">Auto brightness icon</string>
+    <string name="qs_auto_brightness_summary">Show toggle for adaptive brightness near the slider</string>
 </resources>
