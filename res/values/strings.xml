@@ -47,6 +47,7 @@
     <string name="general_category"> General settings</string>
     <string name="icons_category">Icon Options</string>
     <string name="fingerprint_category">Fingerprint</string>
+    <string name="qs_category">Quick settings</string>
 
     <!-- App info dialog -->
     <string name="blazehouse_dialog_title">Help us help you!</string>
@@ -201,4 +202,8 @@
     <!-- Notification count -->
     <string name="status_bar_notif_count_title">Notification count</string>
     <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
+
+    <!-- QS Transparency -->
+    <string name="qs_transparency_title">Background transparency</string>
+    <string name="qs_transparency_summary">Set transparency level for QS background</string>
 </resources>
