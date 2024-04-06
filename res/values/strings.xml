@@ -222,4 +222,8 @@
     <string name="screen_off_animation_title">Screen off animation</string>
     <string name="screen_off_animation_crt" translatable="false">CRT</string>
     <string name="screen_off_animation_scale">Scale</string>
+
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Priority heads up</string>
+    <string name="less_boring_heads_up_summary">Show heads up only for calls, messages, alarms, reminders and priority conversations</string>
 </resources>
