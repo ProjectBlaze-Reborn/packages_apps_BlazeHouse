@@ -48,6 +48,8 @@
     <string name="icons_category">Icon Options</string>
     <string name="fingerprint_category">Fingerprint</string>
     <string name="qs_category">Quick settings</string>
+    <string name="volume_category">Volume Settings</string>
+    <string name="privacy_category">Privacy Indicators</string>
 
     <!-- App info dialog -->
     <string name="blazehouse_dialog_title">Help us help you!</string>
@@ -242,4 +244,12 @@
     <!-- Clock show seconds -->
     <string name="status_bar_clock_show_seconds_title">Clock show seconds</string>
     <string name="status_bar_clock_show_seconds_desc">Show hours, minutes, and seconds</string>
+
+    <!-- Privacy Indicator -->
+    <string name="mic_camera_privacy_indicator_title">Mic and camera privacy indicator</string>
+    <string name="mic_camera_privacy_indicator_summary">Show indicator when any app uses mic or camera</string>
+    <string name="location_privacy_indicator_title">Location privacy indicator</string>
+    <string name="location_privacy_indicator_summary">Show indicator when any app uses location</string>
+    <string name="projection_privacy_indicator_title">Media projection privacy indicator</string>
+    <string name="projection_privacy_indicator_summary">Show indicator when device screen is projected</string>
 </resources>
