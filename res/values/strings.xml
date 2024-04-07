@@ -315,4 +315,7 @@
     <string name="fp_error_vibrate_title">Fingerprint auth error vibration</string>
     <string name="fp_error_vibrate_summary">Vibrate for error authentication</string>
 
+    <!-- Footer -->
+    <string name="qs_footer_datausage_title">Data usage</string>
+    <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string>
 </resources>
