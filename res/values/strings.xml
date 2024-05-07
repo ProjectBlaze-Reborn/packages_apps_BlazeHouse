@@ -308,4 +308,11 @@
 
     <!-- QS Tiles haptic -->
     <string name="qs_tiles_haptic_feedback_title">Vibrate on touching QS tiles</string>    
+
+    <!-- Fingerprint authentication vibration -->
+    <string name="fp_success_vibrate_title">Fingerprint auth success vibration</string>
+    <string name="fp_success_vibrate_summary">Vibrate for successful authentication</string>
+    <string name="fp_error_vibrate_title">Fingerprint auth error vibration</string>
+    <string name="fp_error_vibrate_summary">Vibrate for error authentication</string>
+
 </resources>
