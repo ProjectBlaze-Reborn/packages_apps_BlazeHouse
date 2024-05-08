@@ -18,8 +18,10 @@ package com.blaze.house.categories;
 
 import android.content.ContentResolver;
 import android.os.Bundle;
+import com.android.internal.util.blaze.udfps.CustomUdfpsUtils;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
+import androidx.preference.PreferenceCategory;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
@@ -28,7 +30,10 @@ import com.android.settings.SettingsPreferenceFragment;
 public class Lockscreen extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
+    private PreferenceCategory mUdfpsCategory;
+
     private static final String TAG = "Lockscreen";
+    private static final String UDFPS_CATEGORY = "udfps_category";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -37,6 +42,12 @@ public class Lockscreen extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.lockscreen);
 
         ContentResolver resolver = getActivity().getContentResolver();
+	final PreferenceScreen prefScreen = getPreferenceScreen();
+	mUdfpsCategory = findPreference(UDFPS_CATEGORY);
+	//Handle NPE on UdfpsCategory being null
+        if (mUdfpsCategory != null && !CustomUdfpsUtils.hasUdfpsSupport(getContext())) {
+            prefScreen.removePreference(mUdfpsCategory);
+        }
     }
 
     @Override
