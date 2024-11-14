@@ -48,7 +48,7 @@
  import com.android.settingslib.search.Indexable;
  import com.android.settingslib.search.SearchIndexable;
 
- import com.blaze.house.preferences.SecureSettingListPreference;
+ import com.android.settings.custom.preference.SecureSettingListPreference;
 
  import java.util.ArrayList;
  import java.util.Date;

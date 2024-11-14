@@ -37,8 +37,8 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.Collections;
 
-import com.blaze.house.preferences.SystemSettingSwitchPreference;
-import com.blaze.house.preferences.SystemSettingMainSwitchPreference;
+import com.android.settings.custom.preference.SystemSettingSwitchPreference;
+import com.android.settings.custom.preference.SystemSettingMainSwitchPreference;
 
 @SearchIndexable
 public class NetworkTrafficSettings extends SettingsPreferenceFragment implements
