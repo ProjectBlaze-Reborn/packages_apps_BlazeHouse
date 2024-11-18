@@ -25,6 +25,13 @@
         android:summary="@string/lockscreen_battery_info_summary"
         android:defaultValue="true" />
 
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="lockscreen_charge_temp_unit"
+        android:title="@string/lockscreen_charge_temp_unit_title"
+        android:summary="@string/lockscreen_charge_temp_unit_summary"
+        android:defaultValue="true"
+        android:dependency="lockscreen_battery_info" />
+
     <PreferenceCategory
         android:key="lockscreen_ui_finterprint_category"
         android:title="@string/fingerprint_category">
