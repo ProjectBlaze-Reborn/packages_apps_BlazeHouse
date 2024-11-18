@@ -38,17 +38,23 @@
         android:title="@string/status_bar_category">
 
         <Preference
-	    android:key="status_bar_clock"
-	    android:title="@string/status_bar_clock_position_title"
-	    android:summary="Clock settings"
-	    android:fragment="com.blaze.house.fragments.StatusBarClock"/>
+            android:key="status_bar_clock"
+            android:title="@string/status_bar_clock_position_title"
+            android:summary="Clock settings"
+            android:fragment="com.blaze.house.fragments.StatusBarClock"/>
 
-	<Preference
+	    <Preference
             android:key="status_bar_logo"
             android:title="@string/status_bar_logo_title"
             android:summary="@string/status_bar_logo_summary"
             android:fragment="com.blaze.house.fragments.StatusBarLogo" />
 
+	    <Preference
+            android:key="status_bar_battery"
+            android:title="@string/status_bar_battery_category_title"
+            android:summary="@string/status_bar_battery_category_summary"
+            android:fragment="com.blaze.house.fragments.StatusBarBattery" />
+    
     </PreferenceCategory>
 
     <PreferenceCategory
