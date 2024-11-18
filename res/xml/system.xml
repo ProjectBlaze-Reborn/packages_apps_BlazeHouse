@@ -40,6 +40,13 @@
     <PreferenceCategory
         android:title="@string/general_category" >
 
+    <!-- Smart Pixels -->
+    <Preference
+        android:key="smart_pixels"
+        android:title="@string/smart_pixels_title" 
+        android:summary="@string/smart_pixels_summary" 
+        android:fragment="com.blaze.house.fragments.SmartPixelsSettings" />
+
 	<com.android.settings.custom.preference.SystemSettingSwitchPreference
 	    android:key="advanced_reboot"
             android:title="@string/global_actions_advanced_reboot_title"
