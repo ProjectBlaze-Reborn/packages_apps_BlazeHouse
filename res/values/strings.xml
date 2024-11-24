@@ -371,4 +371,8 @@
     <string name="custom_timeout_summary_20mins">20 minutes</string>
     <string name="custom_timeout_summary_30mins">30 minutes</string>
     <string name="custom_timeout_summary_1hour">1 hour</string>
+
+    <!-- No storage restrict -->
+    <string name="no_storage_restrict_title">No storage restrict</string>
+    <string name="no_storage_restrict_summary">Remove the restriction when selecting folders through Storage Access Framework.</string>
 </resources>

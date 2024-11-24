@@ -59,6 +59,12 @@
             android:summary="@string/ignore_window_secure_summary"
             android:defaultValue="false"/>
 
+	<com.android.settings.custom.preference.GlobalSettingSwitchPreference
+        android:key="no_storage_restrict"
+        android:title="@string/no_storage_restrict_title"
+        android:summary="@string/no_storage_restrict_summary"
+        android:defaultValue="false"/>
+
 	<com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:key="back_gesture_haptic"
             android:title="@string/back_gesture_haptic_title"
