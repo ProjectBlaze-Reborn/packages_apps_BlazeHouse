@@ -375,4 +375,11 @@
     <!-- No storage restrict -->
     <string name="no_storage_restrict_title">No storage restrict</string>
     <string name="no_storage_restrict_summary">Remove the restriction when selecting folders through Storage Access Framework.</string>
+
+    <!-- Spoofing Settings -->
+    <string name="spoofing_category_title">Spoofing settings</string>
+
+    <!-- Google Play Integrity Spoof -->
+    <string name="pi_spoof_title">Google Play Integrity spoof</string>
+    <string name="pi_spoof_summary">Spoof your device as different model for Google Play Integrity</string>
 </resources>

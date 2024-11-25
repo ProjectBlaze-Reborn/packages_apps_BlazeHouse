@@ -72,4 +72,14 @@
             android:defaultValue="false" />
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:title="@string/spoofing_category_title" >
+
+        <!-- Google Play Integrity -->
+        <com.android.settings.custom.preference.SystemPropertySwitchPreference
+            android:key="persist.sys.pihooks.pi"
+            android:title="@string/pi_spoof_title"
+            android:summary="@string/pi_spoof_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
 </PreferenceScreen>
